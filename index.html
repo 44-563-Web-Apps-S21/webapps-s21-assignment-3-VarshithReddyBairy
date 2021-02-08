@@ -79,5 +79,34 @@
                 <td>$500</td>
             </tr>
         </table>
+        <hr>
+        <h3>Time For Some Code</h3>
+        <h3>Cython</h3>
+        <blockquote ref = "https://en.wikipedia.org/wiki/Cython">Cython is a programming language that aims to be a superset of the Python programming language, designed to give C-like performance with code that is written mostly in Python with optional additional C-inspired syntax.
+            Cython is a compiled language that is typically used to generate CPython extension modules. Annotated Python-like code is compiled to C or C++ then automatically wrapped in interface code, producing extension modules that can be loaded and used by regular Python code using the import statement, but with significantly less computational overhead at run time. Cython also facilitates wrapping independent C or C++ code into python-importable modules.</blockquote>
+         <a href="https://en.wikipedia.org/wiki/Cython">Click here to know more</a> 
+         
+         <h3>#Sample Code</h3>
+         <pre>
+                def primes(int kmax):  # The argument will be converted to int or raise a TypeError.
+                cdef int n, k, i  # These variables are declared with C types.
+                cdef int p[1000]  # Another C type
+                result = []  # A Python type
+                if kmax > 1000:
+                    kmax = 1000
+                k = 0
+                n = 2
+                while k < kmax:
+                    i = 0
+                    while i < k and n % p[i] != 0:
+                        i = i + 1
+                    if i == k:
+                        p[k] = n
+                        k = k + 1
+                        result.append(n)
+                    n = n + 1
+                return result
+         </pre>
+         <a href="https://en.wikipedia.org/wiki/Cython">Link for sample code</a>
     </body>
 </html>
