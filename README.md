@@ -1,4 +1,4 @@
 # WebApps-S21-Assignment-3
 Assignment 3 - Basic HTML
 <br>
-[Hosted At](https://github.com/44-563-Web-Apps-S21/webapps-s21-assignment-3-VarshithReddyBairy/tree/main/index.html)
+[Hosted At](https://44-563-web-apps-s21.github.io/webapps-s21-assignment-3-VarshithReddyBairy/)
